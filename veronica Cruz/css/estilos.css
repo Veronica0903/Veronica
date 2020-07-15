@@ -1,0 +1,168 @@
+body{
+	margin: 0;
+	height: 100%;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+}
+.cabecera{
+	background: url("../img/portada.jpg") left no-repeat;
+	background-size: 80%;
+	background-position: right;
+	margin: 0 auto;
+	display: flex;
+}
+@media (max-width: 1200px) {
+  .cabecera {
+	background-size: 70%;
+  }
+}
+@media (max-width: 800px) {
+  .cabecera {
+	background-size: 80%;
+  }
+}
+img{
+	width: 272px;
+}
+.logo{
+	width: 60%;
+}
+.izquierda{
+	width: 40%;
+	margin-top: 8px;
+	padding-top: 8px;
+	padding-right: 8px;
+}
+.enlaces{
+	text-align:right;
+	color: white;	
+	font-size: 14px;
+
+}
+.enlaces a{
+	text-decoration: none;
+	color: white;
+	transition: color 1s;
+}
+.enlaces a:hover{
+	color:red;
+}
+.busqueda{
+	padding-top: 45px;
+	text-align: right;
+}
+nav{
+	background-image: linear-gradient(#f6f6f6, #e6e6e6);
+}
+.navs{
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+}
+.lista > li{
+	float: left;
+}
+.lista{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.lista li{
+
+	list-style: none;
+}
+.item a{
+	text-decoration: none;
+	color: #646464;
+	padding: 12px 12px;
+	display: block;
+	transition: color 0.5s;
+}
+.item a:hover{
+	color: white;
+	background-image: linear-gradient(black,#9c9c9c);
+}
+.cuerpo{
+	background: url("../img/fondo.jpg") fixed no-repeat;
+}
+.interno{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+}
+aside{
+	width: 25%;
+	background: rgba(255,255,255,0.7);
+	margin-top: 5px;
+	border-radius: 10px;
+}
+.titulo{
+	background-image: linear-gradient(black,#9c9c9c);
+}
+.titulo h1{
+	color: white;
+	text-align: center;
+	margin:0;
+	padding: 5px 20px;
+}
+.menuaside{
+	padding: 0;
+}
+.menuaside a{
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	padding: 12px 12px;
+	display: block;
+	transition: color 0.5s;
+}
+.menuaside a:hover{
+	color: white;
+	background-image: linear-gradient(#9c9c9c,black);
+}
+.menuaside li{
+	list-style: none;
+}
+section{
+	width: 75%;
+	margin: 0;
+	padding: 5px;
+}
+article{
+	background: rgba(255,255,255,0.7);
+	border-radius: 10px;
+	padding: 5px 50px;
+}
+article h1{
+	text-align: center;
+}
+article p{
+	text-align: justify;
+}
+footer{
+	background-image: linear-gradient(black,#9c9c9c);
+}
+.img{
+	text-align: center;
+}
+figcaption{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.organigrama{
+	border-radius: 30px;
+	border-top-left-radius: 70px;
+	border-top-right-radius:    70px;
+	padding-top: 20px;
+	width: 500px;
+}
+.pie{
+	width: 70%;
+	margin: 0 auto;
+	color: white;
+	text-align:center;
+	font-size: 16px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
